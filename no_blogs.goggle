@@ -3,5 +3,7 @@
 ! public: false
 ! author: Spinning-my-wheels
 
-/blog/$discard
-blog.*$discard
+/blog/$downrank=3
+blog.*$downrank=3
+
+/articles/$downrank=2
