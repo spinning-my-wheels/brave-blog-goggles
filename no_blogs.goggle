@@ -1,0 +1,7 @@
+! name: No Blogs
+! description: Removes blogs as best as possible to prevent AI sludge from filling the search results
+! public: false
+! author: Spinning-my-wheels
+
+/blog/$discard
+blog.*$discard
