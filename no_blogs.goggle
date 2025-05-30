@@ -5,5 +5,7 @@
 
 /blog/$downrank=3
 blog.*$downrank=3
+*blog*$downrank=2
 
 /articles/$downrank=2
+/article/$downrank=2
